@@ -9,11 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var playButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        playButton.layer.cornerRadius = 20
     }
 
+    @IBAction func playButtonTapped(_ sender: UIButton) {
+        print("playButtonTapped")
+    }
+    
 
 }
 
