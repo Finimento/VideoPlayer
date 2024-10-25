@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="6EQ-TB-XgP">
-                                <rect key="frame" x="72" y="200.5" width="176.5" height="167.5"/>
+                                <rect key="frame" x="60" y="200.5" width="200" height="167.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Bc-iZ-0dG">
-                                        <rect key="frame" x="0.0" y="0.0" width="176.5" height="96"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="96"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="176.5" id="4dX-5h-PTP"/>
+                                            <constraint firstAttribute="width" constant="200" id="Lqp-bg-Rpq"/>
                                             <constraint firstAttribute="height" constant="96" id="RvQ-vv-imc"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="60"/>
@@ -36,7 +36,10 @@
                                         </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Wähle ein Video" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bwe-vT-IAu">
-                                        <rect key="frame" x="0.0" y="130" width="176.5" height="37.5"/>
+                                        <rect key="frame" x="0.0" y="130" width="200" height="37.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="MeI-Qa-qpU"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -57,6 +60,7 @@
                     </view>
                     <connections>
                         <outlet property="playButton" destination="0Bc-iZ-0dG" id="eKs-uf-7vL"/>
+                        <outlet property="textField" destination="bwe-vT-IAu" id="BeZ-Mw-9g2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
