@@ -13,6 +13,11 @@
 		B56F12772CCA474700E10D5E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B56F12762CCA474700E10D5E /* Base */; };
 		B56F12792CCA474900E10D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56F12782CCA474900E10D5E /* Assets.xcassets */; };
 		B56F127C2CCA474900E10D5E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B56F127B2CCA474900E10D5E /* Base */; };
+		B56F12882CCBA2F600E10D5E /* 3343679-hd_1280_720_30fps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B56F12832CCBA2F600E10D5E /* 3343679-hd_1280_720_30fps.mp4 */; };
+		B56F12892CCBA2F600E10D5E /* 112761-696336252_medium.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B56F12842CCBA2F600E10D5E /* 112761-696336252_medium.mp4 */; };
+		B56F128A2CCBA2F600E10D5E /* b19735545-hd_1080_1920_60fps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B56F12852CCBA2F600E10D5E /* b19735545-hd_1080_1920_60fps.mp4 */; };
+		B56F128B2CCBA2F600E10D5E /* Autofahrt_hoch_mit_Ton.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B56F12862CCBA2F600E10D5E /* Autofahrt_hoch_mit_Ton.mp4 */; };
+		B56F128C2CCBA2F600E10D5E /* 12225583_3840_2160_30fps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B56F12872CCBA2F600E10D5E /* 12225583_3840_2160_30fps.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,16 @@
 		B56F12782CCA474900E10D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B56F127B2CCA474900E10D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B56F127D2CCA474900E10D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56F12832CCBA2F600E10D5E /* 3343679-hd_1280_720_30fps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "3343679-hd_1280_720_30fps.mp4"; path = "../../../Downloads/3343679-hd_1280_720_30fps.mp4"; sourceTree = "<group>"; };
+		B56F12842CCBA2F600E10D5E /* 112761-696336252_medium.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "112761-696336252_medium.mp4"; path = "../../../Downloads/112761-696336252_medium.mp4"; sourceTree = "<group>"; };
+		B56F12852CCBA2F600E10D5E /* b19735545-hd_1080_1920_60fps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "b19735545-hd_1080_1920_60fps.mp4"; path = "../../../Downloads/b19735545-hd_1080_1920_60fps.mp4"; sourceTree = "<group>"; };
+		B56F12862CCBA2F600E10D5E /* Autofahrt_hoch_mit_Ton.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Autofahrt_hoch_mit_Ton.mp4; path = ../../../Downloads/Autofahrt_hoch_mit_Ton.mp4; sourceTree = "<group>"; };
+		B56F12872CCBA2F600E10D5E /* 12225583_3840_2160_30fps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 12225583_3840_2160_30fps.mp4; path = ../../../Downloads/12225583_3840_2160_30fps.mp4; sourceTree = "<group>"; };
+		B56F128E2CCBA31A00E10D5E /* Autofahrt_hoch_mit_Ton.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Autofahrt_hoch_mit_Ton.mp4; sourceTree = "<group>"; };
+		B56F128F2CCBA31B00E10D5E /* 3343679-hd_1280_720_30fps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "3343679-hd_1280_720_30fps.mp4"; sourceTree = "<group>"; };
+		B56F12902CCBA31B00E10D5E /* b19735545-hd_1080_1920_60fps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "b19735545-hd_1080_1920_60fps.mp4"; sourceTree = "<group>"; };
+		B56F12912CCBA31C00E10D5E /* 12225583_3840_2160_30fps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 12225583_3840_2160_30fps.mp4; sourceTree = "<group>"; };
+		B56F12922CCBA31C00E10D5E /* 112761-696336252_medium.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "112761-696336252_medium.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +78,26 @@
 				B56F12782CCA474900E10D5E /* Assets.xcassets */,
 				B56F127A2CCA474900E10D5E /* LaunchScreen.storyboard */,
 				B56F127D2CCA474900E10D5E /* Info.plist */,
+				B56F128D2CCBA31A00E10D5E /* videos */,
+				B56F12842CCBA2F600E10D5E /* 112761-696336252_medium.mp4 */,
+				B56F12832CCBA2F600E10D5E /* 3343679-hd_1280_720_30fps.mp4 */,
+				B56F12872CCBA2F600E10D5E /* 12225583_3840_2160_30fps.mp4 */,
+				B56F12862CCBA2F600E10D5E /* Autofahrt_hoch_mit_Ton.mp4 */,
+				B56F12852CCBA2F600E10D5E /* b19735545-hd_1080_1920_60fps.mp4 */,
 			);
 			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		B56F128D2CCBA31A00E10D5E /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				B56F12922CCBA31C00E10D5E /* 112761-696336252_medium.mp4 */,
+				B56F128F2CCBA31B00E10D5E /* 3343679-hd_1280_720_30fps.mp4 */,
+				B56F12912CCBA31C00E10D5E /* 12225583_3840_2160_30fps.mp4 */,
+				B56F128E2CCBA31A00E10D5E /* Autofahrt_hoch_mit_Ton.mp4 */,
+				B56F12902CCBA31B00E10D5E /* b19735545-hd_1080_1920_60fps.mp4 */,
+			);
+			path = videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +158,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56F128C2CCBA2F600E10D5E /* 12225583_3840_2160_30fps.mp4 in Resources */,
+				B56F128B2CCBA2F600E10D5E /* Autofahrt_hoch_mit_Ton.mp4 in Resources */,
+				B56F12892CCBA2F600E10D5E /* 112761-696336252_medium.mp4 in Resources */,
 				B56F12792CCA474900E10D5E /* Assets.xcassets in Resources */,
+				B56F128A2CCBA2F600E10D5E /* b19735545-hd_1080_1920_60fps.mp4 in Resources */,
+				B56F12882CCBA2F600E10D5E /* 3343679-hd_1280_720_30fps.mp4 in Resources */,
 				B56F127C2CCA474900E10D5E /* Base in Resources */,
 				B56F12772CCA474700E10D5E /* Base in Resources */,
 			);
